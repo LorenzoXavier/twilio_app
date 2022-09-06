@@ -1,24 +1,10 @@
-# README
+# Twilio API integration
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A very simple app that uses Twilio to generate a confirmation text on sign up.
 
-Things you may want to cover:
+The app uses ``gem 'devise'`` to manage users, with an addition **phone** attribute.
+The **phone** is confirmed as a United Kingdom number, that is valid using the ``gem 'phonelib'``.
 
-* Ruby version
+When users have registered, the app will redirect to the ``root_path`` and send a text welcoming the new client to the platform
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
