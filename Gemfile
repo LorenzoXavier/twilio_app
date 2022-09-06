@@ -12,6 +12,9 @@ gem 'devise'
 # phone lib for validation
 gem 'phonelib'
 
+# binding.pry helper
+gem 'pry-byebug'
+
 # twilio to send text messages
 gem 'twilio-ruby'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
